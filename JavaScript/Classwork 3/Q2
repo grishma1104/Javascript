@@ -1,0 +1,12 @@
+class Emp{
+    name="Tom";
+    id=10;
+    salary=20000;
+    displayInfo(name,id,salary){
+        console.log(this.name);
+        console.log(this.id);
+        console.log(this.salary)
+    }
+}
+const a=new Emp;
+a.displayInfo();

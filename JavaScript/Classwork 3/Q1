@@ -1,0 +1,17 @@
+// destructuring
+const array= [12,30,40,30];
+const [a1,a2,a3,a4]=array;
+console.log(a1);
+console.log(a2);
+console.log(a3);
+
+// object 
+const person={
+    name: " Tom",
+    id:10,
+    salary: 200000
+}
+const{name,id,salary}=person;
+console.log(name);
+console.log(id)
+console.log(salary);
